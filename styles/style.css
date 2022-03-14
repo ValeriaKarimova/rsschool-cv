@@ -2,8 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: #008000;
+}
+
 a:hover {
-  color: #111111;
+  color: #faea68;
 }
 
 .page {
@@ -153,6 +158,10 @@ article p {
   width: 470px;
   font: lighter 18px "Roboto", sans-serif;
   margin-bottom: 25px;
+}
+
+.project-link {
+  font-weight: 500;
 }
 
 .experience {
